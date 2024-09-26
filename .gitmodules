@@ -1,0 +1,10 @@
+[submodule "gir"]
+	path = gir
+	url = https://github.com/gtk-rs/gir
+[submodule "gir-files"]
+	path = gir-files
+	url = https://github.com/gtk-rs/gir-files
+[submodule "libzypp"]
+	path = libzypp
+	url = https://github.com/openSUSE/libzypp
+	branch = zyppng-staging
