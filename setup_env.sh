@@ -105,4 +105,5 @@ cargo install rustdoc-stripper
 
 cargo build
 
-echo 'To test if everything work run `../target/debug/zypprs`'
+echo 'To test if everything works, run:'
+echo LD_LIBRARY_PATH=/usr/local/lib64 ./target/debug/zypprs
