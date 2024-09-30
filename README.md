@@ -2,6 +2,13 @@
 
 Goal of this crate is to provide direct rust bindings to libzypp to avoid long path over yast component system.
 
+### Caution
+
+This library will build and install libzypp as a dependency.
+The scripts in this repo install into `/usr/local` but if you change
+the defaults you could end up with `/usr`
+and break your package management with `zypper` and YaST.
+
 ### Code Organization
 
 - zypp-sys dir is low level unsafe libzypp bindings
