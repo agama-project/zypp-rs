@@ -2,6 +2,10 @@
 
 Goal of this crate is to provide direct rust bindings to libzypp to avoid long path over yast component system.
 
+NOTE: this has been superseded by the [zypp-agama][] crate in the main repository.
+
+[zypp-agama]: https://github.com/agama-project/agama/tree/master/rust/zypp-agama
+
 ### Caution
 
 This library will build and install libzypp as a dependency.
